@@ -6,11 +6,16 @@
 console.log('První příklad - vzestupná řada 0 - 10');
 
 //TADY NAPIS CYKLUS
-for (let i = 0; i <= 10; i++) {
+let i = 0;
 
-console.log(i);
+while (i <= 10) {
+    console.log(i);
+    i++;
+
 
 }
+
+
 
 
 
@@ -20,15 +25,17 @@ console.log(i);
 // a vyzkoušej, jaký je rozdíl mezi <= a <
 // v podmínce uvnitř cyklu
 
-console.log('Druhý příklad - rozdíl mezi <= a <');
+console.log('Druhý příklad - rozdíl mezi <= a <'); // bez = se vypise 0 - 9
 
 //TADY NAPIS CYKLUS
+let a = 0;
 
-for (let i = 0; i < 10; i++) {
+while (a < 10) {
+    console.log(a);
 
-console.log(i);
-
+    a++;
 }
+
 
 
 
@@ -38,9 +45,11 @@ console.log(i);
 console.log('Třetí příklad - sestupná řada 10 - 0');
 
 //TADY NAPIS CYKLUS
-for (let i = 10; i <= 10; i--) {
+let b = 10;
 
-console.log(i);
+while (b >= 0) {
+    console.log(b);
 
+    b--;
 }
 
